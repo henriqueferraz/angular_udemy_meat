@@ -3,7 +3,7 @@
     {
       "id": "bread-bakery",
       "name": "Bread & Bakery",
-      "category": "Bakery",
+      "category": "Padaria",
       "deliveryEstimate": "25m",
       "rating": 4.9,
       "imagePath": "assets/img/restaurants/breadbakery.png",
@@ -23,7 +23,7 @@
     {
       "id": "coffee-corner",
       "name": "Coffee Corner",
-      "category": "Coffee Shop",
+      "category": "Cafeteria",
       "deliveryEstimate": "30-40m",
       "rating": 4.8,
       "imagePath": "assets/img/restaurants/coffeecorner.png",
@@ -43,7 +43,7 @@
     {
       "id": "ice-cream",
       "name": "Ice Cream",
-      "category": "Ice Creams",
+      "category": "Sorvetes",
       "deliveryEstimate": "40-65m",
       "rating": 4.5,
       "imagePath": "assets/img/restaurants/icy.png",
@@ -372,105 +372,32 @@
   ],
   "orders": [
     {
-      "address": "teste",
-      "number": "1",
-      "optionalAdrress": "",
-      "paymentOption": "DEB",
+      "name": "joser",
+      "email": "h@teste.com",
+      "emailConfirmation": "h@teste.com",
+      "address": "rua das coves",
+      "number": "111",
+      "optionalAddress": "",
+      "paymentOption": "MON",
       "orderItems": [
         {
           "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
           "menuId": "zlasagna"
+        },
+        {
+          "quantity": 1,
+          "menuId": "greensandwich"
+        },
+        {
+          "quantity": 1,
+          "menuId": "ceasar"
         }
       ],
       "id": 1
-    },
-    {
-      "address": "rua teste",
-      "number": "1",
-      "optionalAdrress": "100",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "zlasagna"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "address": "Rua do saco",
-      "number": "100",
-      "optionalAdrress": "ap 100",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "sunday"
-        },
-        {
-          "quantity": 3,
-          "menuId": "chocpop"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "address": "111111",
-      "number": "11",
-      "optionalAdrress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "capp"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "address": "sssss",
-      "number": "1",
-      "optionalAdrress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "capp"
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "",
-      "email": "",
-      "emailConfirmation": "",
-      "address": "",
-      "number": "",
-      "optionalAdrress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "capp"
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "Carlos Henrique Ferraz Cabral",
-      "email": "henriqueferraz@ofnet.com.br",
-      "emailConfirmation": "henriqueferraz@ofnet.com.br",
-      "address": "2 andar",
-      "number": "111",
-      "optionalAdrress": "1111",
-      "paymentOption": "REF",
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "cup-cake"
-        }
-      ],
-      "id": 7
     }
   ]
 }
